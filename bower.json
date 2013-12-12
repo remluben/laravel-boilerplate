@@ -1,0 +1,29 @@
+{
+  "name": "remluben/laravel-bootstrap",
+  "version": "0.1.0",
+  "authors": [
+    "remluben <ulmer.benjamin@gmail.com>"
+  ],
+  "keywords": [
+    "Remluben",
+    "Simple",
+    "Project",
+    "Management"
+  ],
+  "license": "Do What The Fuck You Want To Public License, Version 2",
+  "homepage": "http://github.com/remluben",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/assets/components/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2",
+    "jquery": "~2.0.3",
+    "modernizr": "~2.7.0",
+    "requirejs": "~2.1.9"
+  }
+}

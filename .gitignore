@@ -1,0 +1,9 @@
+/app/assets/components/bower
+/node_modules
+/public/assets
+/vendor
+/bootstrap/compiled.php
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
