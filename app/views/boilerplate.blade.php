@@ -72,5 +72,6 @@
         g.src='//www.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+    <script src="//localhost:35729/livereload.js"></script>
 </body>
 </html>
