@@ -50,6 +50,7 @@
                     <code>composer install<br/>
                         php artisan key:generate<br/>
                         bower install<br/>
+                        npm install<br/>
                         grunt develop<br/>
                     </code>
                     <hr class="separator"/>
