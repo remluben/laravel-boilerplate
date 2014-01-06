@@ -39,9 +39,31 @@ This allows you as a developer, working on your source files without the need to
 
 ####An example
 
-Let's assume you as a developer would like to add an additional library to work with.
+Let's assume you as a developer would like to add an additional library to work with. In order to show how easy you can do so, here's an example of how to integrate [UnderscoreJS](http://underscorejs.org) within your laravel project.
 
-// TODO
+1. Install the package and add it to the <i>bower.json</i> file: 
+
+  <code>bower install --save underscore</code>
+  
+2. Add the <i>underscore.js</i> source file to the target task within the <i>Gruntfile.js</i> configuration file:
+
+        // JS file concatenation
+        concat: {
+            options: {
+                separator: ';'
+            },
+            javascript: {
+                src: [
+                    './app/assets/components/bower/underscore/underscore.js',
+                    './app/assets/components/bower/jquery/jquery.min.js',
+                    './app/assets/components/bower/bootstrap/dist/js/bootstrap.min.js',
+                    './app/assets/js/frontend.js'
+                ],
+                dest: './public/assets/js/frontend.js'
+            },
+        },
+
+3. Run the <code>grunt develop</code> task to start developing with the new package installed.
 
 ##Thanks to
 
