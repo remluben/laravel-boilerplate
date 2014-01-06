@@ -31,6 +31,16 @@ You can start developing immediately after installing the boilerplate.
  
 ###How it works
 
+Described in a nutshell, the approach of this laravel development setup is, that all resources ( *.css, *.js, *.less, ... ) from third party libraries as well as your own resources are stored within the restricted non-public <i>app/</i> directory. 
+
+All files available or required within the web application are compiled, built or just copied to the public directory using tools such as <i>Grunt</i>.
+
+This allows you as a developer, working on your source files without the need to care about modifying JavaScript or CSS file inclusions, when deploying your application.
+
+####An example
+
+Let's assume you as a developer would like to add an additional library to work with.
+
 // TODO
 
 ##Thanks to
