@@ -17,6 +17,7 @@ The Laravel Boilerplate repository provides a simple [Laravel 4 PHP framework](h
  * <code>composer install</code>
  * <code>php artisan key:generate</code>
  * <code>bower install</code>
+ * <code>npm install</code>
  
 For further information on Laravel setup ( database configuration, ... ) please take a look at http://laravel.com.
 
