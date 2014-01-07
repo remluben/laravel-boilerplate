@@ -69,4 +69,5 @@ Let's assume you as a developer would like to add an additional library to work 
 
 Special thanks to [Elena Kolevska](https://github.com/elena-kolevska), who inspired me with her [Laravel Grunt](https://github.com/elena-kolevska/grunt-laravel) implementation and her excellent [blog article](http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap).
 
+And of course, I would like to thank all Laravel Framework developers, that made up this great [framework](https://github.com/laravel/laravel).
 
