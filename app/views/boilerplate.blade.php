@@ -51,8 +51,7 @@
                         php artisan key:generate<br/>
                         bower install<br/>
                         npm install<br/>
-                        grunt develop<br/>
-                    </code>
+                        grunt develop<br/></code>
                     <hr class="separator"/>
                     Have fun :)
                 </p>
