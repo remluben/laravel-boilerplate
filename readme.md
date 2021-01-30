@@ -1,16 +1,18 @@
-#Laravel Boilerplate
+> **NOTE:** This project is archived and not updated anymore. Please simply use the latest version of [Laravel](https://www.laravel.com), which contains an awesome list of frontend scaffolding. 
 
-##Introduction
+# Laravel Boilerplate
+
+## Introduction
 
 The Laravel Boilerplate repository provides a simple [Laravel 4 PHP framework](http://laravel.com) setup including [Bower](http://bower.io) and [Grunt](http://gruntjs.org).
 
-###Requirements
+### Requirements
 
 * Composer, http://getcomposer.org
 * Bower, http://bower.io
 * Grunt, http://gruntjs.org
 
-###Installation
+### Installation
 
 1. Download or <code>git clone</code> this repository
 2. Run
@@ -21,7 +23,7 @@ The Laravel Boilerplate repository provides a simple [Laravel 4 PHP framework](h
  
 For further information on Laravel setup ( database configuration, ... ) please take a look at http://laravel.com.
 
-##Usage
+## Usage
 
 You can start developing immediately after installing the boilerplate.
 
@@ -29,7 +31,7 @@ You can start developing immediately after installing the boilerplate.
 2. Open http://your-url-to-laravel.local
 3. Modify some CSS or JS files located within your <i>app/assets/</i> directory and watch the frontend change automatically due to <b>livereload</b>
  
-###How it works
+### How it works
 
 Described in a nutshell, the approach of this laravel development setup is, that all resources ( *.css, *.js, *.less, ... ) from third party libraries as well as your own resources are stored within the restricted non-public <i>app/</i> directory. 
 
@@ -37,7 +39,7 @@ All files available or required within the web application are compiled, built o
 
 This allows you as a developer, working on your source files without the need to care about modifying JavaScript or CSS file inclusions, when deploying your application.
 
-####An example
+#### An example
 
 Let's assume you as a developer would like to add an additional library to work with. In order to show how easy you can do so, here's an example of how to integrate [UnderscoreJS](http://underscorejs.org) within your laravel project.
 
@@ -65,7 +67,7 @@ Let's assume you as a developer would like to add an additional library to work 
 
 3. Run the <code>grunt develop</code> task to start developing with the new package installed.
 
-##Thanks to
+## Thanks to
 
 Special thanks to [Elena Kolevska](https://github.com/elena-kolevska), who inspired me with her [Laravel Grunt](https://github.com/elena-kolevska/grunt-laravel) implementation and her excellent [blog article](http://blog.elenakolevska.com/using-grunt-with-laravel-and-bootstrap).
 
